@@ -1,0 +1,5 @@
+document.getElementById('contactForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    alert('ধন্যবাদ! আপনার মেসেজ আমরা পেয়েছি।');
+    this.reset();
+});
